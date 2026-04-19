@@ -99,6 +99,20 @@
         padding: 40px 0;
         margin-top: 50px;
       }
+
+      .btn-success {
+        background: #25d366;
+        border: none;
+      }
+
+      .btn-primary {
+        background: #4f46e5;
+        border: none;
+      }
+
+      .section h3 {
+        font-weight: 700;
+      }
     </style>
   </head>
 
@@ -107,10 +121,18 @@
     <nav class="navbar navbar-expand-lg shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand fw-bold">
-            <img src="/assets/img/logo_studeploy-samping.png" alt="Studeploy Logo" height="50" class="d-inline-block align-text-top">
+          <img
+            src="/assets/img/logo_studeploy-samping.png"
+            alt="Studeploy Logo"
+            height="50"
+            class="d-inline-block align-text-top"
+          />
         </a>
-        <div class="ms-auto">
-          <a class="btn btn-primary">Get Started</a>
+        <div class="ms-auto d-flex gap-2">
+          <a href="#pricing" class="btn btn-outline-primary">Harga</a>
+          <a href="https://wa.me/6287827321637" class="btn btn-success">
+            Deploy Sekarang
+          </a>
         </div>
       </div>
     </nav>
@@ -132,9 +154,7 @@
         </div>
 
         <div class="mt-5">
-          <img
-            src="/assets/img/illustrasi.png"
-          />
+          <img src="/assets/img/illustrasi.png" />
         </div>
       </div>
     </section>
@@ -197,32 +217,31 @@
       </div>
     </section>
 
-    <!-- FEATURES ALT -->
+    <!-- HOW IT WORKS -->
     <section class="section bg-light">
-      <div class="container">
-        <div class="row align-items-center mb-5">
-          <div class="col-md-6">
-            <img
-              class="img-fluid rounded"
-              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
-            />
-          </div>
-          <div class="col-md-6">
-            <h4>Corporis temporibus maiores</h4>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
+      <div class="container text-center">
+        <h3>Cara Kerja Studeploy</h3>
 
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <h4>Neque ipsum omnis sapiente</h4>
-            <p>Lorem ipsum dolor sit amet.</p>
+        <div class="row mt-5 g-4">
+          <div class="col-md-4">
+            <div class="card-custom">
+              <h5>1. Kirim Project</h5>
+              <p>Kirim file Laravel / CI kamu via WhatsApp</p>
+            </div>
           </div>
-          <div class="col-md-6">
-            <img
-              class="img-fluid rounded"
-              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
-            />
+
+          <div class="col-md-4">
+            <div class="card-custom">
+              <h5>2. Kami Deploy</h5>
+              <p>Kami setup server, database, dan konfigurasi</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card-custom">
+              <h5>3. Langsung Online</h5>
+              <p>Website kamu siap diakses dosen</p>
+            </div>
           </div>
         </div>
       </div>
@@ -248,34 +267,35 @@
     </section>
 
     <!-- PRICING -->
-    <section id="pricing" class="section bg-light">
-      <div class="container text-center">
-        <h3>Paket Harga</h3>
+    <div class="pricing-card">
+      <h5>Standard</h5>
+      <h2>35K</h2>
 
-        <div class="row mt-4 g-4">
-          <div class="col-md-4">
-            <div class="pricing-card">
-              <h5>Basic</h5>
-              <h2>20K</h2>
-              <p>Deploy saja</p>
-            </div>
-          </div>
+      <ul class="text-start mt-3">
+        <li>✔ Deploy Laravel / CI</li>
+        <li>✔ Setup Database</li>
+        <li>✔ Subdomain gratis</li>
+        <li>✔ Support revisi kecil</li>
+      </ul>
 
-          <div class="col-md-4">
-            <div class="pricing-card">
-              <h5>Standard</h5>
-              <h2>35K</h2>
-              <p>Deploy + Database</p>
-            </div>
-          </div>
+      <a href="https://wa.me/6287827321637" class="btn btn-primary w-100 mt-3">
+        Pilih Paket
+      </a>
+    </div>
 
-          <div class="col-md-4">
-            <div class="pricing-card">
-              <h5>Premium</h5>
-              <h2>50K</h2>
-              <p>Full setup + revisi</p>
-            </div>
-          </div>
+    <!-- FAQ -->
+    <section class="section">
+      <div class="container">
+        <h3 class="text-center">FAQ</h3>
+
+        <div class="mt-4">
+          <p>
+            <strong>Apakah bisa Laravel?</strong><br />Bisa, termasuk database.
+          </p>
+
+          <p><strong>Berapa lama deploy?</strong><br />1–24 jam.</p>
+
+          <p><strong>Apakah bisa revisi?</strong><br />Ya, tergantung paket.</p>
         </div>
       </div>
     </section>
