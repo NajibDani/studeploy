@@ -1,0 +1,302 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f7f9fc;
+}
+
+/* NAVBAR */
+.navbar {
+  margin: 20px auto;
+  width: 95%;
+  border-radius: 12px;
+  background: white;
+}
+
+/* HERO */
+.hero-section {
+  position: relative;
+  padding-top: 100px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="1" d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,224C672,245,768,267,864,250.7C960,235,1056,181,1152,165.3C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-title {
+  color: #2c4964;
+  font-size: 3.5rem;
+}
+
+.text-primary-custom {
+  color: #388da8; /* Warna biru sesuai gambar */
+}
+
+.hero-subtitle {
+  color: #5e5e5e;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Problem */
+/* Warna Biru Khas QuickStart */
+.text-primary-custom,
+.btn-primary-custom {
+  color: #388da8 !important;
+}
+
+.btn-primary-custom {
+  background-color: #388da8;
+  color: white !important;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn-primary-custom:hover {
+  background-color: #2d738a;
+  transform: translateY(-2px);
+}
+
+/* Custom List Icon */
+.custom-list i {
+  font-size: 1.2rem;
+}
+
+.custom-list span {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Responsive adjustment */
+@media (max-width: 991px) {
+  .about-section img {
+    height: 300px !important; /* Biar tidak terlalu tinggi di HP */
+  }
+}
+
+/* Button Styling */
+.btn-get-started {
+  background-color: #388da8;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+.btn-get-started:hover {
+  background-color: #2d738a;
+  color: white;
+}
+
+.btn-watch-video {
+  color: #2c4964;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-watch-video i {
+  font-size: 1.5rem;
+  color: #388da8;
+}
+
+/* Info Cards */
+.info-boxes {
+  margin-top: -50px; /* Menarik card ke atas agar overlap dengan image */
+  position: relative;
+  z-index: 10;
+  padding-bottom: 80px;
+}
+
+.info-card {
+  background: white;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-box {
+  font-size: 2rem;
+  color: #388da8;
+}
+
+/* CARD */
+.card-custom {
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* SECTION */
+.section {
+  padding: 80px 0;
+}
+
+/* LOGO */
+.client-logos img {
+  height: 30px;
+  opacity: 0.6;
+}
+
+/* FEATURE BLOCK */
+.feature-box {
+  padding: 30px;
+}
+
+.feature-box h5 {
+  font-weight: 600;
+}
+
+/* PRICING */
+.pricing-card {
+  border-radius: 12px;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+/* FOOTER */
+footer {
+  background: #fff;
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+.btn-success {
+  background: #25d366;
+  border: none;
+}
+
+.bg-primary {
+  background: hsla(194, 100%, 50%, 1);
+
+  background: linear-gradient(
+    45deg,
+    hsla(194, 100%, 50%, 1) 0%,
+    hsla(211, 100%, 50%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(194, 100%, 50%, 1) 0%,
+    hsla(211, 100%, 50%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(194, 100%, 50%, 1) 0%,
+    hsla(211, 100%, 50%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00C2FF", endColorstr="#007BFF", GradientType=1 );
+}
+
+.btn-primary {
+  background: hsla(194, 100%, 50%, 1);
+
+  background: linear-gradient(
+    45deg,
+    hsla(194, 100%, 50%, 1) 0%,
+    hsla(211, 100%, 50%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(194, 100%, 50%, 1) 0%,
+    hsla(211, 100%, 50%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(194, 100%, 50%, 1) 0%,
+    hsla(211, 100%, 50%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00C2FF", endColorstr="#007BFF", GradientType=1 );
+  border: none;
+}
+
+.btn-primary:hover {
+  background: hsla(211, 100%, 50%, 1);
+
+  background: linear-gradient(
+    45deg,
+    hsla(211, 100%, 50%, 1) 0%,
+    hsla(194, 100%, 50%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(211, 100%, 50%, 1) 0%,
+    hsla(194, 100%, 50%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(211, 100%, 50%, 1) 0%,
+    hsla(194, 100%, 50%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#007BFF", endColorstr="#00C2FF", GradientType=1 );
+}
+
+.btn-outline-primary:hover {
+  background: hsla(194, 100%, 50%, 1);
+
+  background: linear-gradient(
+    45deg,
+    hsla(194, 100%, 50%, 1) 0%,
+    hsla(211, 100%, 50%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(194, 100%, 50%, 1) 0%,
+    hsla(211, 100%, 50%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(194, 100%, 50%, 1) 0%,
+    hsla(211, 100%, 50%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00C2FF", endColorstr="#007BFF", GradientType=1 );
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #ff9500;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #ffb956 !important;
+  border: none;
+}
+
+.btn-outline-secondary {
+  color: #ff9500;
+  border-color: #ff9500;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #ff9500;
+  border: none;
+}
+
+.section h3 {
+  font-weight: 700;
+}
