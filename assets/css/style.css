@@ -125,3 +125,13 @@ body.bg-dark-custom {
   font-weight: bold;
   flex-shrink: 0;
 }
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 30px !important; /* Logo lebih kecil di mobile */
+    }
+    .btn-primary {
+        font-size: 0.8rem; /* Ukuran font tombol lebih kecil */
+        padding: 8px 12px !important;
+    }
+}
